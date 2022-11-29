@@ -1,0 +1,74 @@
+@import '../../styles/colors.css';
+@import '../../styles/metrics.css';
+
+.tag-button .menu-button > .icon-button {
+	background-color: var(--off-white);
+	box-shadow: 0 1px 1px var(--light-gray);
+	border-radius: var(--control-height);
+	height: var(--control-height);
+	font-size: 85%;
+}
+
+.tag-button .menu-button > .icon-button:hover {
+	background-color: var(--light-gray);
+}
+
+.tag-button.color-red .menu-button > .icon-button {
+	background-color: var(--faint-red);
+	box-shadow: 0 1px 1px var(--light-red);
+	color: var(--dark-red);
+}
+
+.tag-button.color-red .menu-button > .icon-button:hover {
+	background-color: var(--light-red);
+}
+
+.tag-button.color-orange .menu-button > .icon-button {
+	background-color: var(--faint-orange);
+	box-shadow: 0 1px 1px var(--light-orange);
+	color: var(--dark-orange);
+}
+
+.tag-button.color-orange .menu-button > .icon-button:hover {
+	background-color: var(--light-orange);
+}
+
+.tag-button.color-yellow .menu-button > .icon-button {
+	background-color: var(--faint-yellow);
+	box-shadow: 0 1px 1px var(--light-yellow);
+	color: var(--dark-yellow);
+}
+
+.tag-button.color-yellow .menu-button > .icon-button:hover {
+	background-color: var(--light-yellow);
+}
+
+.tag-button.color-green .menu-button > .icon-button {
+	background-color: var(--faint-green);
+	box-shadow: 0 1px 1px var(--light-green);
+	color: var(--dark-green);
+}
+
+.tag-button.color-green .menu-button > .icon-button:hover {
+	background-color: var(--light-green);
+}
+
+.tag-button.color-blue .menu-button > .icon-button {
+	background-color: var(--faint-blue);
+	box-shadow: 0 1px 1px var(--light-blue);
+	color: var(--dark-blue);
+}
+
+.tag-button.color-blue .menu-button > .icon-button:hover {
+	background-color: var(--light-blue);
+}
+
+.tag-button.color-purple .menu-button > .icon-button {
+	background-color: var(--faint-purple);
+	border: 1px solid var(--light-purple);
+	color: var(--dark-purple);
+}
+
+.tag-button.color-purple .menu-button > .icon-button:hover {
+	background-color: var(--light-purple);
+}

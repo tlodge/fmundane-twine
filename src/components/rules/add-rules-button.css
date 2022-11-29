@@ -1,0 +1,74 @@
+@import '../../styles/metrics.css';
+
+.rulerow{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+
+}
+
+.rulecol{
+	display: flex;
+	flex-direction: column;
+}
+
+.rulecol input[type=text]{
+	margin: 0px;
+}
+
+#rules .next input[type=text], 
+#rules .rulerow input[type=text]{
+	margin-right: 10px;
+	padding-top:2px;
+	border: none;
+	width: auto;
+	font-weight:bold;
+	font-family: "Courier New"; 
+	font-size:14px;
+	height: 24px;
+	background-color: transparent;
+	color: #325EA5;
+}
+
+.container{
+	padding:10px;
+}
+.help{
+	font-size: 0.8em;
+	
+	line-height:1.5em;
+}
+
+.link{
+	color: #325EA5;
+	font-weight: 700;
+	cursor:pointer;
+}
+
+#rules .add-dialogue{
+	position: absolute;
+	top:14px;
+	left:14px;
+	background: white;
+	border-radius: 7px;
+	z-index: 2;
+	box-shadow: var(--shadow-small);
+	padding: 20px;
+	background: var(--off-white);
+}
+
+#rules .heading{
+	text-align: center;
+	font-weight: 700;
+	padding:10px 0px 15px 0px;
+}
+.formItem{
+	margin-bottom: 10px;
+}
+
+.description{
+	padding: 7px 0px 7px 0px;
+	margin-bottom:10px;
+	font-size: 0.8em;
+	line-height:1.5em;
+}

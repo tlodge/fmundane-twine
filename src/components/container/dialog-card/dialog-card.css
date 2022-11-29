@@ -1,0 +1,43 @@
+@import '../../../styles/typography.css';
+@import '../../../styles/metrics.css';
+
+.dialog-card {
+	height: 100%;
+	width: 100%;
+}
+
+.dialog-card .card {
+	padding: 0;
+}
+
+.dialog-card h2 {
+	align-items: center;
+	display: flex;
+}
+
+.dialog-card h2 .dialog-card-header {
+	flex-shrink: 1;
+	flex-grow: 1;
+	min-width: 0;
+}
+
+.dialog-card h2 .dialog-card-header .icon-button {
+	display: block;
+	font-weight: bold;
+	overflow: hidden;
+	text-align: left;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	max-width: 100%;
+	width: 100%;
+}
+
+.dialog-card .card-body {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+}
+
+.dialog-card .card-body h2 {
+	font: bold 100% var(--font-system);
+}

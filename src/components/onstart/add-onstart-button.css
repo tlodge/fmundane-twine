@@ -1,0 +1,70 @@
+@import '../../styles/metrics.css';
+
+.add-tag-button .card-content {
+	display: grid;
+	grid-gap: var(--grid-size);
+}
+
+.add-tag-button .card-content .text-select-label,
+.add-tag-button .card-content .text-input-label {
+	display: inline-block;
+	width: 6em;
+}
+
+.speechcontainer{
+	display: flex;
+	flex-direction: column;
+}
+
+.speechformitem{
+	margin-top:15px;
+}
+
+.paramline{
+	display: flex;
+	flex-direction: row;
+}
+
+.lines{
+	display: flex;
+	flex-direction: row;
+}
+
+.lines >div{
+	padding:5px;
+	width: 60px;
+}
+
+.lines .words{
+	width:238px;
+}
+
+.lines .rate{
+	width: 30px;
+}
+
+.heading{
+	text-align: center;
+	font-weight: 700;
+	padding:10px 0px 15px 0px;
+}
+
+.help{
+	font-size: 0.8em;
+	
+	line-height:1.5em;
+}
+
+.add-dialogue{
+	position: absolute;
+	top:14px;
+	left:14px;
+	background: white;
+	border-radius: 7px;
+	z-index: 2;
+	box-shadow: var(--shadow-small);
+	padding: 20px;
+	background: var(--off-white);
+	width:415px;
+	min-height:320px;
+}
