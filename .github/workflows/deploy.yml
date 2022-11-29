@@ -21,10 +21,6 @@ jobs:
           node-version: 16
           cache: npm
 
-      - name: Build
-        run: |
-          touch dist/web/.nojekyll
-
       - name: Deploy
         # https://github.com/JamesIves/github-pages-deploy-action
         uses: JamesIves/github-pages-deploy-action@v4
